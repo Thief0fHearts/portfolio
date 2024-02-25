@@ -1,0 +1,125 @@
+.top-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: antiquewhite;
+    padding-bottom: 20px;
+}
+
+.sunset {
+    width: 300px;
+    height: auto;
+}
+
+.title-text {
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+.middle-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0;
+}
+
+.profile .myphoto {
+    margin-bottom: 30px;
+}
+
+.profile h2 {
+    margin-bottom: 30px;
+}
+
+.myphoto {
+    border-radius: 10%;
+    width: 300px;
+    height: auto;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-text {
+    max-width: 600px;
+}
+
+hr.dotted {
+    border: none;
+    border-top: 6px dotted burlywood;
+    height: 2px;
+    width: 4%;
+    margin: 100px auto; 
+}
+
+
+.skills-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 50%;
+    text-align: left;
+    grid-column-gap: 40px;
+    grid-row-gap: 40px;
+    place-content: center;
+}
+
+.dev-meme {
+    height: 200px;
+    width: 300px;
+}
+
+.contact-me {
+    display:block;
+    text-align: center;
+}
+
+.contact-text {
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+.contact-me .btn {
+    display: inline-block;
+    padding: 10px 20px 10px 20px;
+    background-color: antiquewhite;
+
+}
+
+.bottom-container {
+    background-color: antiquewhite;
+    padding: 50px 0 20px;
+    text-align: center;
+}
+
+.footer-link {
+    color:chocolate;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+.copyright {
+    color:black;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
